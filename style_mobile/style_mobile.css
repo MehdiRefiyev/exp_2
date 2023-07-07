@@ -1,7 +1,9 @@
 @media screen and (max-width: 768px){
+    html{font-size: 0.5em;}
     .card_area{
         width: 100%;
         height: 200vh;
+        background-color: cadetblue;
     }
     .mleft{margin-left: 0;}
     .cards{
@@ -17,31 +19,8 @@
         width: 100%;
         height: 50%;
     }
-    html{
-        font-size: 0.5em;
-    }
-    .presponsive{
-        font-size: smaller;
-    }
-    .submit_header{margin-left: 35%;}
+    .presponsive{font-size: smaller;}
 }
-@media screen and (min-width: 425px){
-    .submit_header{margin-left: 40%;} 
-}
-@media screen and (min-width: 768px){
-    .submit_header{margin-left: 45%;} 
-}
-@media screen and (min-width: 1025px){
-    html{
-        font-size: 1.5em;
-    }
-}
-@media screen and (min-width: 1800px){
-    html{
-        font-size: 2em;
-    }
-    .submit_header{font-size:1.2em;} 
-}
-@media screen and (min-width:1365px) and (max-width:1366px){
-    html{font-size: 1em;}
-}
+@media screen and (min-width: 1025px){html{font-size: 1.5em;}}
+@media screen and (min-width: 1800px){html{font-size: 2em;}}
+@media screen and (min-width:1365px) and (max-width:1366px){html{font-size: 1em;}}
